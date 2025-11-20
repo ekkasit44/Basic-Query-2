@@ -1,5 +1,5 @@
-?--Student ID
---Student Name
+?--67040249106
+--Ekkasit srisuk
 
 -- *********????????? Basic Query #2 ***************
  
@@ -278,4 +278,5 @@ WHERE   s.Country = 'USA'
   AND   c.Country = 'USA'
   AND   e.Country = 'USA'
   AND   YEAR(o.OrderDate) = 1997
+
 GROUP BY p.ProductID, p.ProductName;
